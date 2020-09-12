@@ -13,3 +13,7 @@ pip install bs4
 
 - https://towardsdatascience.com/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8
 - https://docs.ray.io/en/latest/walkthrough.html
+
+- https://rise.cs.berkeley.edu/blog/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray/
+
+- https://rise.cs.berkeley.edu/blog/ray-tips-for-first-time-users/
