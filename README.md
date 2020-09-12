@@ -12,3 +12,4 @@ pip install bs4
 - https://towardsdatascience.com/10x-faster-parallel-python-without-python-multiprocessing-e5017c93cce1
 
 - https://towardsdatascience.com/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8
+- https://docs.ray.io/en/latest/walkthrough.html
