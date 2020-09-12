@@ -10,6 +10,14 @@ Fault tolerance.
 import ray
 
 ray.init()
+#ray.init(include_webui=True)
+
+# reserve 2.5GiB of available memory to place this actor
+@ray.remote(memory=2500 * 1024 * 1024)
+class SomeActor(object):
+	def __init__(self, a, b):
+		pass
+
 
 @ray.remote(num_return_vals=3)
 def calc_stuff(parameter=None):
