@@ -8,6 +8,7 @@ pip install bs4
 
 ##  Docs
 
+- https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-20-04-focal-fossa-linux
 - Ray Clusters mode manual config
 - https://docs.ray.io/en/latest/cluster/launcher.html
 https://docs.ray.io/en/releases-0.8.5/using-ray-on-a-cluster.html
