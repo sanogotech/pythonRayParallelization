@@ -9,6 +9,7 @@ pip install bs4
 ##  Docs
 
 - Ray Clusters mode manual config
+- https://docs.ray.io/en/latest/cluster/launcher.html
 https://docs.ray.io/en/releases-0.8.5/using-ray-on-a-cluster.html
 
 - https://colab.research.google.com/github/ray-project/tutorial/blob/master/exercises/colab01-03.ipynb#scrollTo=zCb7eB-l_-HH
