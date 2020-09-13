@@ -4,6 +4,28 @@
 pip uninstall -y pyarrow
 pip install ray[debug]==0.7.5
 pip install bs4
+
+ray start --head  --include-webui
+
+View the dashboard at http://192.xx.xx.xx:8080/?token=xxxxxx
+
+Started Ray on this node. You can add additional nodes to the cluster by calling
+
+ray start --redis-address 192.168.1.105:52871
+
+from the node you wish to add. You can connect a driver to the cluster from Python by running
+
+import ray
+ray.init(redis_address="192.168.1.105:52871")
+
+
+If you have trouble connecting from a different machine, check that your firewall is configured properly. If you wish to terminate the processes that have been started, run
+
+    ray stop
+sanogo@DESKTOP-O
+
+
+
 ```
 
 ##  Docs
