@@ -21,10 +21,7 @@ ray.init(redis_address="192.168.1.105:52871")
 
 If you have trouble connecting from a different machine, check that your firewall is configured properly. If you wish to terminate the processes that have been started, run
 
-    ray stop
-sanogo@DESKTOP-O
-
-
+ray stop
 
 ```
 
